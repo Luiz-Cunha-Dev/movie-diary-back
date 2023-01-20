@@ -7,9 +7,9 @@ moviesRouter.get("/movies", getMovies);
 
 moviesRouter.post("/movies", insertMovie);
 
-moviesRouter.put("/movies", updateMovie);
+moviesRouter.put("/movies/:id", updateMovie);
 
-moviesRouter.delete("/movies", deleteMovie);
+moviesRouter.delete("/movies/:id", deleteMovie);
 
 
 
