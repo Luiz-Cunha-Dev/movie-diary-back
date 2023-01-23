@@ -1,4 +1,4 @@
-# Movie-Diary
+# Movie-Diary 🎥
 
 Api to save your movie list
 
